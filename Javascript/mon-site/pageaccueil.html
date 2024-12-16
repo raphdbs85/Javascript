@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteCarte - Accueil</title>
+    <link rel="stylesheet" href="styleaccueil.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="pageaccueil.html">
+                <img src="logo.png" alt="logo">
+            </a>   
+        </div>
+        <nav class="menuprincipal">
+            <a href="pagemescartes.html"><h1>Nos Cartes</h1></a>
+            <a href="pasgeboutique.html"><h1>Boutique</h1></a>
+        </nav>
+        <div class="dark-mode-toggle">
+            <button id="darkModeButton">Mode Sombre</button>
+        </div>
+    </div>
+
+    <div class="tabs-container">
+        <ul class="tabs">
+            <li class="tab tab-accueil tab-active">Accueil</li>
+            <li class="tab tab-collection">Collection</li>
+            <li class="tab tab-contact">Contact</li>
+        </ul>
+        
+        <div class="tab-content content-accueil active">
+            <h2 class="title-accueil">Bienvenue sur notre site !</h2>
+            <p>Bienvenue chez Animotopia ! Plongez dans un univers où les animaux prennent vie à travers des cartes à collectionner uniques et fascinantes. Passionnés de stratégie, collectionneurs ou joueurs occasionnels, découvrez une sélection exceptionnelle de cartes illustrées, inspirées de créatures de tous les horizons.</p>
+        </div>
+
+        <div class="tab-content content-collection">
+            <h2>Nos Collections</h2>
+            <p>Explorez notre vaste collection de cartes à thèmes variés : feu, eau, terre, air. Trouvez des éditions limitées et enrichissez vos stratégies avec des cartes rares et uniques.</p>
+        </div>
+
+        <div class="tab-content content-contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou information, contactez-nous par email à : support.animotopia@gmail.com</p>
+            <p>Ou rendez-vous dans notre boutique physique : 39 rue de Montreuil</p>
+        </div>
+    </div>
+
+    <footer>
+        <span>Nous contacter : support.animotopia@gmail.com</span>
+        <span>Notre boutique physique : 39 rue de Montreuil</span>
+    </footer>
+
+    <script src="tabs.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
